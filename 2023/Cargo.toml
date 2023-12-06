@@ -1,0 +1,11 @@
+[workspace]
+
+members = ["day1"]
+
+resolver = "2"
+
+[profile.release]
+debug = true
+
+[workspace.dependencies]
+clap = "4.4.11"
